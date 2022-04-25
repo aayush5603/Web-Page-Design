@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+em {
+  color: #fff;
+}
+
+/* Headings */
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+.title-image {
+  border-radius: 10%;
+  width: 60%;
+  margin-left: 35%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-weight: 700;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-photo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 90px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Bottom */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+  color: #fff;
+}
+
+#cta h3 {
+  width: 90%;
+  margin: auto;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+#footer {
+  padding: 30px;
+}
+
+.bottom-icon {
+  padding: 1%;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 300px;
+    margin: auto;
+  }
+}
